@@ -1,10 +1,8 @@
-import { run } from "./app/app";
-import "./main.scss"
-import { AlertService } from "./app/alert.service";
-import { ComponentService } from "./app/component.service";
+import "./main.scss";
+import AOS from "aos";
 
-const alertService = new AlertService();
-const componentService = new ComponentService();
+window.addEventListener("load", function() {
+  document.querySelector("body").classList.add("loaded");
+});
 
-console.log(alertService)
-run(alertService, componentService);
+AOS.init();

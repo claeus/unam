@@ -11,6 +11,7 @@
   "author": "Nana Adjei Manu <claeusdev@outlook.com> (https://nanamanu.xyz/)",
   "license": "MIT",
   "devDependencies": {
+    "aos": "2.3.4",
     "bootstrap": "4.3.1",
     "clean-webpack-plugin": "3.0.0",
     "css-loader": "3.0.0",

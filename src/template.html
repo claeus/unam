@@ -9,31 +9,76 @@
     <title>Webpack Demo</title>
 </head>
 
-<body class="container">
-    <!-- Body of this thing -->
-    
-    <h1 class="text-center mt-5">
-        Welcome!
-    </h1>
-    <div class="alert alert-danger" id="error" role="alert"></div>
-    <div class="row mt-5">
-        <div class="col">
-            <div class="input-group">
-                <input type="text" id="numberOne" class="form-control" />
-                <div class="input-group-append input-group-prepend">
-                    <span class="input-group-text">+</span>
+<body class="bg-black">
+    <div class="loader">
+        <div class="loading-animation"></div>
+    </div>
+    <section>
+        <div class="container mt-lg-6">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-3">Let's build something
+                        <br>your users will love.</h1>
+                    <div class="my-4">
+                        <p class="lead">Unam is a product development consultancy that works with startups and established businesses, and creates open source-based
+                        products and services.</p>
+                    </div>
+                    <a href="#" class="btn btn-lg btn-primary">Get In Touch</a>
                 </div>
-                <input type="text" id="numberTwo" class="form-control" />
             </div>
         </div>
-        <div class="col">
-            <button id="addValues" class="btn btn-primary">Add Values</button>
+    </section>
+    <section class="bg-primary-3 text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-lg-4 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#">
+                        <img src="assets/portfolio-item-1.jpg" alt="Leap iOS" class="rounded mb-3">
+                    </a>
+                    <a href="#">
+                        <h4 class="mb-0">Leap iOS</h4>
+                        <div class="text-small text-muted">Digital</div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                    <a href="#">
+                        <img src="assets/portfolio-item-2.jpg" alt="Oculus Go" class="rounded mb-3">
+                    </a>
+                    <a href="#">
+                        <h4 class="mb-0">Oculus Go</h4>
+                        <div class="text-small text-muted">Branding</div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                    <a href="#">
+                        <img src="assets/portfolio-item-3.jpg" alt="Beker EV" class="rounded mb-3">
+                    </a>
+                    <a href="#">
+                        <h4 class="mb-0">Beker EV</h4>
+                        <div class="text-small text-muted">Art Direction</div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                    <a href="#">
+                        <img src="assets/portfolio-item-4.jpg" alt="Tribe" class="rounded mb-3">
+                    </a>
+                    <a href="#">
+                        <h4 class="mb-0">Tribe</h4>
+                        <div class="text-small text-muted">Digital</div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-lg-4 mb-4 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+                    <a href="#">
+                        <img src="assets/portfolio-item-5.jpg" alt="Go Commerce" class="rounded mb-3">
+                    </a>
+                    <a href="#">
+                        <h4 class="mb-0">Go Commerce</h4>
+                        <div class="text-small text-muted">Art Direction</div>
+                    </a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card mt-5">
-        <div class="card-body">The result is: <span id="result"></span></div>
-    </div>
-    <img src="./assets/webpack.svg" />
+    </section>
 </body>
 
 </html>
